@@ -8,8 +8,8 @@ echo       STARTING 10 MINIMIZED INSTANCES OF RCV.EXE
 echo ================================================================
 echo.
 
-for /L %%i in (1,1,10) do (
-    echo [+] Opening Minimized Instance %%i of 10...
+for /L %%i in (1,1,12) do (
+    echo [+] Opening Minimized Instance %%i of 12...
     start "" /min "%~dp0RCV.exe"
     timeout /t 2 /nobreak >nul
 )
